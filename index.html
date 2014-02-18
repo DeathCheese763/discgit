@@ -19,17 +19,32 @@
 <body>
 	<div class="container">
 	<!-- row 1: navigation -->
-		<header class="row">
-		<nav>
-			<ul>
-				<li>Train</li>
-				<li>Great Back Then</li>
-				<li>Even Better Now</li>
-				<li>Meet the Guys</li>
-				<li>Sign Up for What's Up</li>
-				<li>Sources</li>
-				
-			</ul>				  			
+	<header class="row">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                  MENU
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Train</a></li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">Meet the Guys <span class="caret"></span></a>
+                    	<ul class="dropdown-menu">
+                        	<li><a href="#">Patrick Monahan</a></li>
+                            <li><a href="#">Jimmy Stafford</a></li>
+                            <li><a href="#">Scott Underwood</a></li>
+                        </ul>                    
+                    </li>
+                    <li><a href="#">Great Back Then</a></li>
+                    <li><a href="#">Even Better Now</a></li>
+                    <li><a href="#">Sign Up for What's Up</a></li>
+                    <li><a href="#">Sources</a></li>  
+                </ul> 
+            </div>
+			
 		</nav>
 	</header><!-- end of row 1: navigation -->
 
