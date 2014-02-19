@@ -2,6 +2,7 @@
 
 body{
   padding-top: 70px;
+  background-color: #20797f;
 }
 footer {
 	padding: 2em 0;
@@ -38,9 +39,10 @@ footer {
     border-color: #3F2B22;
 }
 .panel-default > .panel-heading {
-    background-color: #cdae51;
+    background-color: #78adab;/*med teal blue*/
     border-color: #3F2B22;
     color: #fff;
+    text-align: center;
 }
 .breadcrumb > li + li:before {
   padding: 0 5px;
