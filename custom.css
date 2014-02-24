@@ -40,6 +40,10 @@ footer {
   background-color: #4F2f26;
   border-color: #333;
 }
+
+.panel-group{
+  margin:0 auto;
+}
 .panel-default {
     border-color: #3F2B22;
 }
@@ -80,4 +84,34 @@ footer {
 .active .glyphicon {
   color: black;
 }
+/*----------------------------------------------------------*/
+/*for mobile phones*/
 
+@media all and (max-width: 480px){
+
+  .panel-group{
+    width: 90%;
+  }
+
+}
+
+/*--------------------------------------------------------*/
+/*for tablets*/
+
+@media only screen and (min-width: 481px) and (max-width: 779px){
+
+  .panel-group{
+    width: 60%;
+  }
+}
+
+/*--------------------------------------------------------*/
+/* desktop*/
+
+@media only screen and (min-width: 780px){
+
+  .panel-group{
+    width: 50%;
+  }
+
+}
