@@ -74,18 +74,11 @@ body{
   color: black;
 }
 
-#accordian{
-  
-}
 .panel-group {
   margin:0 auto;
   display: block;
   width: 100%;
   padding-bottom: 5em;
-  /*background: -webkit-linear-gradient(top,#79aeac,#20797f);
-  background: -moz-linear-gradient(top,#78adab,#20797f);
-  background: -ms-linear-gradient(top,#78adab,#20797f);
-  background: -o-linear-gradient(top,#78adab,#20797f);*/
 }
 .panel {
     border:none;
@@ -106,14 +99,12 @@ body{
   width: 100%;
   padding: 5em 0;
   text-align: center;
-
+  color: #000;
   
   background: -webkit-linear-gradient(top,#20797f,#ffd284);
   background: -moz-linear-gradient(top,#20797f,#ffd284);
   background: -ms-linear-gradient(top,#20797f,#ffd284);
   background: -o-linear-gradient(top,#20797f,#ffd284);
-
-  color: #000;
 }
 
 .band{
@@ -140,8 +131,8 @@ body{
 .guy img {
   width:325px;
   height:270px;
-  margin-bottom: 2em;
-  
+  margin-bottom: 2em auto;
+  text-align: center;  
 
   border:solid black 1px;
   border-radius: 15px;
@@ -167,6 +158,9 @@ a {
 a:hover, a:active {
   color: yellow;
 }
+footer a:visited {
+  color: white;
+}
 
 .list {
   margin: 0 auto;
@@ -187,12 +181,21 @@ a:hover, a:active {
   .panel-group{
     width: 90%;
   }
+  #meet-guys img{
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+  }
   .band {
     width:85%;
-
   }
   .guy {
   width: 90%; 
+}
+.guy img {
+  display: block;
+  margin: 1em auto;
+  text-align: center;
 }
 .footerlist {
   width: 90%;
