@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<title>Join Train</title>
+	<meta name="description" content="html for page1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="formnormalize.css"/>
+	<link rel="stylesheet" type="text/css" href="formstyle.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<script src="respond.js"  type="text/javascript"></script>
+	<!--[if lt IE 11.1]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!--[if lt IE8]>
+	<style>
+	legend{
+		display:block;
+		padding:0;
+		padding-top:30px;
+		font-weight:bold;
+		font-size:1.25em;
+		color:#ffd98d;
+		margin:0 auto;
+	}
+	</style>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+	<div class="container">
+	<!-- row 1: navigation -->
+	<header class="row">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="glyphicon glyphicon-arrow-down"></span>
+                  MENU
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../discgit/index.html">Train</a></li>
+                    <li class="dropdown"><a href="../discgit/index.html" data-toggle="dropdown">Meet the Guys <span class="caret"></span></a>
+                    	<ul class="dropdown-menu">
+                        	<li><a href="../discgit/index.html#pat">Patrick Monahan</a></li>
+                            <li><a href="../discgit/index.html#jimmy">Jimmy Stafford</a></li>
+                            <li><a href="../discgit/index.html#scott">Scott Underwood</a></li>
+                        </ul>                    
+                    </li>
+                    <li ><a href="#">Latest Hit</a></li>
+                    <li class="active"><a href="#">Sign Up for What's Up</a></li>
+                    <li><a href="../discgit/sourcesNP.html">Sources</a></li>  
+                </ul> 
+            </div>
+		</nav>
+	</header><!-- end of row 1: navigation -->
+
+<div class="row"><!-- row 2: form -->
+	<div class="intro">
+	<h2>Get On Board With <span class="logo">train</span></h2>
+	   <h3>Sign Up for What's Up, and get:</h3>
+	   		<p>Detailed information on upcoming tours, shows and events.</p>
+            <p>Our latest songs and upcoming releases.</p>
+            <p>Read our latest blogs - no, not just about us - our commentaries about where music and the music industry is going.</p>
+            <p>Join the discussion on our forum!</p>
+    </div><!--end of intro-->
+
+<form id="myform" class="group" action="mailto:tlains@sbcglobal.net?subject=Comments" method="POST" enctype="text/plain">
+	<fieldset title="Keeping You In The Know!">
+		<legend>Login Info</legend>
+		<ol>
+			<li>
+				<label for="myname">Name *</label>
+				<input type="text" name="myname" id="myname" autofocus placeholder="Last, First" required />
+			</li>
+			<li>
+				<label>Street Address</label>
+				<input type="text" name="myname" title="street address" placeholder="Street Address"/>
+			</li>
+			<li>
+				<label>State</label>
+				<select name="state" title="State">
+					<option value="AL">Alabama</option>
+					<option value="AK">Alaska</option>
+					<option value="AZ">Arizona</option>
+					<option value="AR">Arkansas</option>
+					<option value="CA">California</option>
+					<option value="CO">Colorado</option>
+					<option value="CT">Connecticut</option>
+					<option value="DC">District of Columbia</option>
+					<option value="DE">Delaware</option>
+					<option value="FL">Florida</option>
+					<option value="GA">Georgia</option>
+					<option value="HI">Hawaii</option>
+					<option value="ID">Idaho</option>
+					<option value="IL">Illinois</option>
+					<option value="IN">Indiana</option>
+					<option value="IA">Iowa</option>
+					<option value="KS">Kansas</option>
+					<option value="KY">Kentucky</option>
+					<option value="LA">Louisiana</option>
+					<option value="ME">Maine</option>
+					<option value="MD">Maryland</option>
+					<option value="MA">Massachusetts</option>
+					<option value="MI">Michigan</option>
+					<option value="MN">Minnesota</option>
+					<option value="MS">Mississippi</option>
+					<option value="MO">Missouri</option>
+					<option value="MT">Montana</option>
+					<option value="NE">Nebraska</option>
+					<option value="NV">Nevada</option>
+					<option value="NH">New Hampshire</option>
+					<option value="NJ">New Jersey</option>
+					<option value="NM">New Mexico</option>
+					<option value="NY">New York</option>
+					<option value="NC">North Carolina</option>
+					<option value="ND">North Dakota</option>
+					<option value="OH">Ohio</option>
+					<option value="OK">Oklahoma</option>
+					<option value="OR">Oregon</option>
+					<option value="PA">Pennsylvania</option>
+					<option value="RI">Rhode Island</option>
+					<option value="SC">South Carolina</option>
+					<option value="SD">South Dakota</option>
+					<option value="TN">Tennessee</option>
+					<option value="TX">Texas</option>
+					<option value="UT">Utah</option>
+					<option value="VT">Vermont</option>
+					<option value="VA">Virginia</option>
+					<option value="WA">Washington</option>
+					<option value="WV">West Virginia</option>
+					<option value="WI">Wisconsin</option>
+					<option value="WY">Wyoming</option>
+				</select>
+			</li>
+			<li>
+				<label>5-digit Zip Code</label>
+				<input type="number" name="zipcode" max="99999" title="Please enter your 5-digit postal zip code." placeholder="12345" />
+			</li>
+			<li>
+				<label for="myemail">Email *</label>
+				<input type="email" name="myemail" id="myemail" required autocomplete="off" placeholder="someone@example.com"/>
+			</li>
+			<li>
+				<label for="birthday">Birthday</label>
+				<select name="month" title="Month">
+					<option value="Jan.">Jan.</option>
+					<option value="Feb.">Feb.</option>
+					<option value="Mar.">Mar.</option>
+					<option value="Apr.">Apr.</option>
+					<option value="May">May</option>
+					<option value="Jun.">Jun.</option>
+					<option value="Jul.">Jul.</option>
+					<option value="Aug.">Aug.</option>
+					<option value="Sept.">Sept.</option>
+					<option value="Oct.">Oct.</option>
+					<option value="Nov.">Nov.</option>
+					<option value="Dec.">Dec.</option>
+				</select>
+			</li>
+			<li>
+				<select name="day" title="Day">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+				</select>
+			</li>
+			<li>
+				<select name="year" title="Year">
+					<option value="before 1945">before 1945: Oldies but Goodies</option>
+					<option value="1945-1964">1945-1964: Baby-Boomers</option>
+					<option value="1965-1981">1965-1981: Generation X</option>
+					<option value="1982-2000">1982-2000: Millenials</option>
+					<option value="2001-present">2001-present: Generation Y</option>
+				</select>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset title="Other">
+		<legend>Other</legend>
+		<ol>
+			
+			<li>
+				<div class="grouphead">email preference</div>
+				<ol>
+					<li>
+						<input type="radio" name="emailpreference" value="HTML" id="questionitem" />
+						<label for="questionitem">HTML</label>
+					</li>
+					<li>
+						<input type="radio" name="emailpreference" value="PlainText" id="commentitem" />
+						<label for="commentitem">Plain Text</label>
+					</li>
+				</ol>
+				
+			</li>
+			<li>
+				<label>Terms of This Website:</label>
+				<p class="terms">
+					I agree not to diss this website on social networks, and instead let people judge for themselves.
+				</p>
+				<p class="terms">
+					I agree to purchase Train's music instead of ripping it off.
+				</p>
+				<p class="terms">
+					I agree that Elaine must have worked very hard on this discography project!
+				</p>
+			</li>
+			<li>
+				<div class="grouphead">Well?</div>
+				<ol>
+					<li>
+						<input type="radio" name="agree" value="yes" checked="checked" id="question" required />
+						<label for="questionitem">If you say so </label>
+					</li>
+					<li>
+						<input type="radio" name="agree" value="no way" id="comment" />
+						<label for="commentitem"> No way</label>
+					</li>
+				</ol>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset title="Comments">
+	<legend>Comments</legend>
+		<ol>
+			<li>
+				<div class="grouphead">Request Type</div>
+				<ol>
+					<li>
+						<input type="radio" name="requesttype" value="question" id="questiontext" />
+						<label for="questionitem">Question</label>
+					</li>
+					<li>
+						<input type="radio" name="requesttype" value="comment" id="commenttext" />
+						<label for="commentitem">Comment</label>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<label for="mycomments">Comment</label>
+				<textarea name="mycomments" id="mycomments"></textarea>
+			</li>
+		</ol>
+		<button type="submit">send</button>
+		<button type="reset">reset</button>
+
+</fieldset>
+</form>
+<footer>
+<div class="top"><a href="#">To the Top!</a></div>
+</footer>
+
+</div><!--end of row 2: form-->
+</div> <!-- end container -->
+<!-- javascript -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script>
+		$('a.btn-info').tooltip()
+	</script>
+</body>
+</html>
