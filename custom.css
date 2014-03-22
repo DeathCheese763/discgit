@@ -96,6 +96,10 @@ body{
     background-color: inherit; /*med teal blue*/
     text-align: center;
 }
+.logo {
+  font-family:'Indie Flower', cursive;
+  font-size: 2em;
+}
 #meet-guys {
   display: block;
   border:none;

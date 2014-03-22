@@ -5,13 +5,14 @@
 	<title>Music Group: TRAIN</title>
 	<meta name="description" content="html for page1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
 	<link href="bootstrap.min.css" rel="stylesheet">
 	<link href="custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 	<script src="respond.js"  type="text/javascript"></script>
-		<!--[if lt IE 9]>
-  		<script src="html5shiv.js"></script>
-	<![endif]-->
+		<!--[if lt IE 11.1]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
 	<div class="container">
@@ -177,8 +178,8 @@
 
     <div class="row"><!--row3-->
         <section id="meet-guys">
-          <div class="band">  
-          <h3>The Band</h3>
+          <div class="band">
+          <h2 class="logo">train</h2>
             <p>Train is an American pop rock band from San Francisco, California. The band currently consists of a core trio of Pat Monahan, Jimmy Stafford, and Scott Underwood.(1)</p>
             <p>Train was inescapable during the turn of the 21st century, when songs like "Calling All Angels" and "Drops of Jupiter" made the San Francisco residents some of America's most popular balladeers. Although formed during the glory days of post-grunge, the group found more success in the pop/rock world, where Train straddled the line between adult contemporary and family-friendly alternative rock. The hits began drying up after 2003, but Train continued releasing material throughout the rest of the decade and even returned to the charts in 2010, when the single "Hey, Soul Sister" became a surprise Top 10 hit.(2)
             </p>
@@ -187,7 +188,7 @@
             <div class="guy col-lg-4" id="pat">
                 <h4>Patrick Monahan</h4>
                   <img src="images/patinjacket.jpg" alt="Pat Monahan on stage" TITLE="Pat Monahan" class="portrait"/>
-                    <p>&quotBest known as the lead singer for the rock band Train, Pat Monahan is a longtime performer in his own right. Born in Erie, PA, in 1969, Monahan moved to California in 1993 and began singing in coffeehouses around San Francisco with guitarist Rob Hotchkiss. The duo added members, named themselves Train, and eventually found success with the 2001 album Drops of Jupiter. In 2006, Train decided to take a break from touring and recording and Monahan accepted an offer to write music with British singer/songwriter and producer Guy Chambers for a Tina Turner project. The creative partnership stuck, and soon Monahan was writing music with Chambers and others with an eye on his own album. He released Last of Seven on Sony in 2007.&quot (2)</p>
+                    <p>&quot;Best known as the lead singer for the rock band Train, Pat Monahan is a longtime performer in his own right. Born in Erie, PA, in 1969, Monahan moved to California in 1993 and began singing in coffeehouses around San Francisco with guitarist Rob Hotchkiss. The duo added members, named themselves Train, and eventually found success with the 2001 album Drops of Jupiter. In 2006, Train decided to take a break from touring and recording and Monahan accepted an offer to write music with British singer/songwriter and producer Guy Chambers for a Tina Turner project. The creative partnership stuck, and soon Monahan was writing music with Chambers and others with an eye on his own album. He released Last of Seven on Sony in 2007.&quot; (2)</p>
             </div><!--end of guy: pat-->
             
             <div class="guy col-lg-4" id="jimmy">
@@ -227,6 +228,9 @@
 <!-- javascript -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="bootstrap.min.js"></script>
+    <script>
+        $('a.btn-info').tooltip()
+    </script>
 </body>
 </html>
 
