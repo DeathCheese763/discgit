@@ -2,22 +2,16 @@
 
 body{
   padding-top: 70px;
-  /*background-color: #20797f;*/
   background: -webkit-linear-gradient(top,#79aeac,#20797f);
   background: -moz-linear-gradient(top,#78adab,#20797f);
   background: -ms-linear-gradient(top,#78adab,#20797f);
   background: -o-linear-gradient(top,#78adab,#20797f);
+  background: linear-gradient(top,#78adab,#20797f);
 }
 .container {
   display: block;
   width: 100%;
-  /*background: -webkit-linear-gradient(top,#79aeac,#20797f);
-  background: -moz-linear-gradient(top,#78adab,#20797f);
-  background: -ms-linear-gradient(top,#78adab,#20797f);
-  background: -o-linear-gradient(top,#78adab,#20797f);*/
 }
-
-
 .glyphicon {
 	color: #cdae51;
 }
@@ -25,9 +19,6 @@ body{
 .glyphicon-heart {
 	color: red;
 }
-/*.pull-right.img-responsive {
-	margin: 0 0 1em 1em;
-}*/
 .btn-info {
     background-color: #cdae51;
     border-color: #3F2B22;
@@ -131,7 +122,7 @@ body{
 .guy img {
   width:325px;
   height:270px;
-  margin-bottom: 2em auto;
+  margin-bottom: 2em;
   text-align: center;  
 
   border:solid black 1px;
@@ -139,7 +130,7 @@ body{
   }
 
   footer {
-    clear: both;
+  clear: both;
   padding: 2em 0;
   margin: 3em 0;
   border-top: 8px double #feb41c;
@@ -167,7 +158,7 @@ footer a:visited {
   text-align: center;
 }
 .list p {
-  font-family: "Times New Roman" serif;
+  font-family: Times New Roman, serif;
   font-size: 1.2em;
   font-weight: bold;
   color: beige;
@@ -184,9 +175,12 @@ footer a:visited {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-}
+  width:100%;
+  height:100%;
+  }
+  .video iframe{
+    border: 0;
+  }
 
 /*----------------------------------------------------------*/
 /*for mobile phones*/
