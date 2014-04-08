@@ -1,4 +1,13 @@
 
+body {
+  margin-top:50px;
+  background: -webkit-linear-gradient(top,#79aeac,#20797f);
+  background: -moz-linear-gradient(top,#78adab,#20797f);
+  background: -ms-linear-gradient(top,#78adab,#20797f);
+  background: -o-linear-gradient(top,#78adab,#20797f);
+  background: linear-gradient(top,#78adab,#20797f);
+}
+
 .glyphicon {
 	color: #cdae51;
 }
@@ -82,14 +91,12 @@ input[type=text],input[type=password],input[type=submit],input[type=email],input
 }
 .group:after{clear:both;}
 .group{zoom:1;}
-body{
-	background:#abc;
-	margin-top:50px;
-}
+
 #myform{
 	font:sans-serif;
-	background:#4f6666;
-	background:-webkit-linear-gradient(rgba(97,126,118,0.6),rgba(53,56,67,.5));
+	background-color:#137072;
+	/*background:#4f6666;*/
+	/*background:-webkit-linear-gradient(rgba(97,126,118,0.6),rgba(53,56,67,.5));*/
 
 	-webkit-border-radius:10px;
 	-o-border-radius:10px;
@@ -172,7 +179,7 @@ body{
 	width:96%;
 	border:1px solid #343742;
 	padding:5px;
-	background:#86897c;
+	background:#5a8a82;
 	margin:0 auto;
 	outline:none;
 
@@ -190,7 +197,7 @@ body{
 	width:200px;
 	width:60%;
 	min-width:100px;
-	background:#b1ae87;
+	background:#8abac2;
 	color:#343742;
 	font-weight:bold;
 	border:0;
@@ -211,7 +218,7 @@ body{
 	margin-right:10px;
 	margin-bottom:10px;
 	border:0;
-	background:#b1ae87;
+	background:#7aaab2;
 	color:#343742;
 	cursor:pointer;
 	font-weight:bold;
