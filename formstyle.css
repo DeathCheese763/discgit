@@ -63,10 +63,22 @@ body {
 	display: block;
 	margin: 2em auto;
 	text-align:center;
-	font-size: 1.5em;
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
 	font-weight: bold;
-	font-variant: small-caps;
-  	font-style: oblique;
+}
+.intro p {
+	color: #fff;
+}
+.intro h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
+	font-weight: bold;
+}
+.intro h2 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.8em;
+	font-weight: bold;
 }
 .logo {
   font-family:'Indie Flower', cursive;
@@ -76,7 +88,7 @@ body {
 input[type=text],input[type=password],input[type=submit],input[type=email],input[type=url],input[type=number],input[type=datetime],input[type=tel],textarea,button,select{
 	-webkit-appearance:none;
 	border: none;
-	background: white;
+	background: #fff;
 	-webkit-border-radius:0;
 	border-radius: 0;
 	padding: 5px;
@@ -95,9 +107,7 @@ input[type=text],input[type=password],input[type=submit],input[type=email],input
 #myform{
 	font:sans-serif;
 	background-color:#137072;
-	/*background:#4f6666;*/
-	/*background:-webkit-linear-gradient(rgba(97,126,118,0.6),rgba(53,56,67,.5));*/
-
+	
 	-webkit-border-radius:10px;
 	-o-border-radius:10px;
 	-ms-border-radius:10px;
@@ -154,6 +164,7 @@ input[type=text],input[type=password],input[type=submit],input[type=email],input
 	display:inline;
 }
 #myform ol li ol li input{
+	background-color:#fff;
 	display:inline;
 	width:auto;
 }
@@ -179,7 +190,7 @@ input[type=text],input[type=password],input[type=submit],input[type=email],input
 	width:96%;
 	border:1px solid #343742;
 	padding:5px;
-	background:#5a8a82;
+	background:#bfe8eb;
 	margin:0 auto;
 	outline:none;
 

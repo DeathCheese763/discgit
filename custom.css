@@ -65,9 +65,9 @@ body{
 .band{
     display: block;
     margin: 0 auto 5em;
-    color: #eee;
+    color: #fff;
     font-family:'Indie Flower', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
 }
 .logo {
@@ -180,10 +180,16 @@ footer a:visited {
 
 .list {
   font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
   margin: 0 auto;
   text-align: center;
 }
+.list h1 {
+  font-family: 'Indie Flower', cursive;
+  color: #000;
+}
 .list p {
+  font-family: 'Indie Flower', cursive;
   font-size: 1.2em;
   font-weight: bold;
   color: #000;
