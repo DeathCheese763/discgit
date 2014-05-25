@@ -184,7 +184,7 @@ footer a:visited {
   margin: 0 auto;
   text-align: center;
 }
-.list h1 {
+.list h1, .list h2, .list h3 {
   font-family: 'Indie Flower', cursive;
   color: #000;
 }
