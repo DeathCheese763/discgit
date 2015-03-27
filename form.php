@@ -1,66 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-
-	<title>Join Train</title>
-	<meta name="description" content="html for page1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<link href="bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="formnormalize.css"/>
-	<link rel="stylesheet" type="text/css" href="formstyle.css"/>
-	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-	<script src="respond.js"  type="text/javascript"></script>
-	<!--[if lt IE 11.1]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	<!--[if lt IE8]>
-	<style>
-	legend{
-		display:block;
-		padding:0;
-		padding-top:30px;
-		font-weight:bold;
-		font-size:1.25em;
-		color:#ffd98d;
-		margin:0 auto;
-	}
-	</style>
-	<![endif]-->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-</head>
-<body>
-	<div class="container">
-	<!-- row 1: navigation -->
-	<header class="row">
-		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-			<div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="glyphicon glyphicon-arrow-down"></span>
-                  MENU
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Train</a></li>
-                    <li class="dropdown"><a href="index.html" data-toggle="dropdown">Meet the Guys <span class="caret"></span></a>
-                    	<ul class="dropdown-menu">
-                        	<li><a href="index.html#pat">Patrick Monahan</a></li>
-                            <li><a href="index.html#jimmy">Jimmy Stafford</a></li>
-                            <li><a href="index.html#scott">Scott Underwood</a></li>
-                        </ul>                    
-                    </li>
-                    <li ><a href="index.html#latest">Latest Hit</a></li>
-                    <li class="active"><a href="#">Sign Up for What's Up</a></li>
-                    <li><a href="sourcesNP.html">Sources</a></li>  
-                </ul> 
-            </div>
-		</nav>
-	</header><!-- end of row 1: navigation -->
-
-<div class="row"><!-- row 2: form -->
+<?php include("header.php") ?>
 	<div class="intro">
 	<h1>Get On Board With <span class="logo">train!</span></h1>
 	   <h2>Sign Up for What's Up, and get:</h2>
@@ -70,22 +8,107 @@
             <p>Join the discussion on our forum!</p>
             <img src="images/musicCropBlack.png" class="music" alt="musical notes">
     </div><!--end of intro-->
-
-<form id="myform" class="group" action="mailto:tlains@sbcglobal.net?subject=Comments" method="POST" enctype="text/plain">
+<?php require ('database_connect.php');
+	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+		$error=array();
+		if (empty($_POST['name'])) {
+			$error[] = 'You did not enter your name.';
+		}else{
+			$n=mysqli_real_escape_string($dprv,trim($_POST['name']));
+		}
+		if (!empty($_POST['street'])){
+			$se=mysqli_real_escape_string($dprv,trim($_POST['street']));
+		}else{
+			$se='';
+		}
+		if (!empty($_POST['state'])){
+			$sa=mysqli_real_escape_string($dprv,trim($_POST['state']));
+		}else{
+			$sa='';
+		}
+		if (!empty($_POST['zip'])){
+			$z=mysqli_real_escape_string($dprv,trim($_POST['zip']));
+		}else{
+			$z='';
+		}
+		if (empty($_POST['email'])){
+			$error[] = 'You did not enter an email address.';
+		}else{
+			$e=mysqli_real_escape_string($dprv,trim($_POST['email']));
+		}
+		if (!empty($_POST['month'])){
+			$m=mysqli_real_escape_string($dprv,trim($_POST['month']));
+		}else{
+			$m='';
+		}
+		if (!empty($_POST['day'])){
+			$d=mysqli_real_escape_string($dprv,trim($_POST['day']));
+		}else{
+			$d='';
+		}
+		if (!empty($_POST['year'])){
+			$y=mysqli_real_escape_string($dprv,trim($_POST['year']));
+		}else{
+			$y='';
+		}
+		if (empty($_POST['preference'])){
+			$error[] = 'You did not select an email preference.';
+		}else{
+			$p=mysqli_real_escape_string($dprv,trim($_POST['preference']));
+		}
+		if (($_POST['terms'])!="yes"){
+			$error[] = 'You did not agree to the terms.';
+		}
+		if (empty($_POST['type'])){
+			$error[] = 'You did not select a message type.';
+		}else{
+			$t=mysqli_real_escape_string($dprv,trim($_POST['type']));
+		}
+		if (empty($_POST['message'])){
+			$error[] = 'You did not enter a message.';
+		}else{
+			$mqc=mysqli_real_escape_string($dprv,trim($_POST['message']));
+		}
+		if (empty($error)){
+			$q = "INSERT INTO message (name,street,state,zip,email,month,day,year,preference,type,message) VALUES ('$n','$se','$sa','$z','$e','$m','$d','$y','$p','$t','$mqc')";
+			$result = @mysqli_query ($dprv,$q);
+			if ($result){
+				echo"<h3 class='feedback'>Thanks for your Feedback</h3>";
+				exit();
+			}else{
+				echo '<div class="error"><h2>System Error</h2>
+				<p>You could not be registered due to a system error. We apologize for any inconvenience.</p></div>';
+				echo '<p>' . mysqli_error($dprv);
+			}
+			mysqli_close($dprv);
+			exit();
+		}else{
+			echo '<div class="error" style="target="#collapse"><h2>Error!</h2>
+			<p> The following error(s) occurred:<br>';
+			foreach ($error as $msg) {
+				echo " - $msg<br>\n";
+			}
+			echo "</div>";
+		}
+		mail("placeholder_email@fakewebsite.con","Train - ".$n,$p,$mqc);
+	}
+?>
+<form id="myform" class="group" action="form.php" method="post">
 	<fieldset title="Keeping You In The Know!">
 		<legend>Login Info</legend>
 		<ol>
 			<li>
-				<label for="myname">Name *</label>
-				<input type="text" name="myname" id="myname" autofocus placeholder="Last, First" required />
+				<label for="name">Name *</label>
+				<input type="text" name="name" id="name" autofocus placeholder="Last, First" required value="<?php if (isset($_POST['name']))echo $_POST['name']; ?>"/>
 			</li>
 			<li>
-				<label>Street Address</label>
-				<input type="text" name="myname" title="street address" placeholder="Street Address"/>
+				<label for="street">Street Address</label>
+				<input type="text" name="street" id="street" title="street" placeholder="Street Address" value="<?php if (isset($_POST['street']))echo $_POST['street']; ?>"/>
 			</li>
 			<li>
-				<label>State</label>
-				<select name="state" title="State">
+				<label for="state">State</label>
+				<select name="state" id="state" title="State" value="<?php if (isset($_POST['state']))echo $_POST['state']; ?>">
+					<option value="" selected>select a state</option>
 					<option value="AL">Alabama</option>
 					<option value="AK">Alaska</option>
 					<option value="AZ">Arizona</option>
@@ -140,16 +163,17 @@
 				</select>
 			</li>
 			<li>
-				<label>5-digit Zip Code</label>
-				<input type="number" name="zipcode" max="99999" title="Please enter your 5-digit postal zip code." placeholder="12345" />
+				<label for="zip">5-digit Zip Code</label>
+				<input type="number" name="zip" id="zip" max="99999" title="Please enter your 5-digit postal zip code." placeholder="12345" value="<?php if (isset($_POST['zip']))echo $_POST['zip']; ?>"/>
 			</li>
 			<li>
-				<label for="myemail">Email *</label>
-				<input type="email" name="myemail" id="myemail" required autocomplete="off" placeholder="someone@example.com"/>
+				<label for="email">Email *</label>
+				<input type="email" name="email" id="email" required placeholder="someone@example.com" value="<?php if (isset($_POST['email']))echo $_POST['email']; ?>"/>
 			</li>
 			<li>
 				<p>Birthday</p>
-				<select name="month" title="Month">
+				<select name="month" id="month" title="Month" value="<?php if (isset($_POST['month']))echo $_POST['month']; ?>">
+					<option value="" selected>select a month</option>
 					<option value="Jan.">Jan.</option>
 					<option value="Feb.">Feb.</option>
 					<option value="Mar.">Mar.</option>
@@ -165,7 +189,8 @@
 				</select>
 			</li>
 			<li>
-				<select name="day" title="Day">
+				<select name="day" id="day" title="Day" value="<?php if (isset($_POST['day']))echo $_POST['day']; ?>">
+					<option value="" selected>select a day</option>
 					<option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>
@@ -200,7 +225,8 @@
 				</select>
 			</li>
 			<li>
-				<select name="year" title="Year">
+				<select name="year" id="year" title="Year" value="<?php if (isset($_POST['year']))echo $_POST['year']; ?>">
+					<option value="" selected>select a year range</option>
 					<option value="before 1945">before 1945: Oldies but Goodies</option>
 					<option value="1945-1964">1945-1964: Baby-Boomers</option>
 					<option value="1965-1981">1965-1981: Generation X</option>
@@ -215,15 +241,15 @@
 		<ol>
 			
 			<li>
-				<div class="grouphead">email preference</div>
+				<div class="grouphead">Email preference *</div>
 				<ol>
 					<li>
-						<input type="radio" name="emailpreference" value="HTML" id="questionitem" />
-						<label for="questionitem">HTML</label>
+						<input type="radio" name="preference" required  value="HTML" id="htmlpreference"/>
+						<label for="htmlpreference">HTML</label>
 					</li>
 					<li>
-						<input type="radio" name="emailpreference" value="PlainText" id="commentitem" />
-						<label for="commentitem">Plain Text</label>
+						<input type="radio" name="preference" required  value="PlainText" id="textpreference" />
+						<label for="textpreference">Plain Text</label>
 					</li>
 				</ol>
 				
@@ -241,56 +267,42 @@
 				</p>
 			</li>
 			<li>
-				<div class="grouphead">Well?</div>
+				<div class="grouphead">Well? *</div>
 				<ol>
 					<li>
-						<input type="radio" name="agree" value="yes" checked="checked" id="question" required />
-						<label for="questionitem">If you say so </label>
+						<input type="radio" name="terms" value="yes" id="agree" required />
+						<label for="agree">If you say so </label>
 					</li>
 					<li>
-						<input type="radio" name="agree" value="no way" id="comment" />
-						<label for="commentitem"> No way</label>
+						<input type="radio" name="terms" value="no way" id="disagree" />
+						<label for="disagree"> No way</label>
 					</li>
 				</ol>
 			</li>
 		</ol>
 	</fieldset>
-	<fieldset title="Comments">
-	<legend>Comments</legend>
+	<fieldset title="Message">
+	<legend>Message</legend>
 		<ol>
 			<li>
-				<div class="grouphead">Request Type</div>
+				<div class="grouphead">Request Type *</div>
 				<ol>
 					<li>
-						<input type="radio" name="requesttype" value="question" id="questiontext" />
-						<label for="questionitem">Question</label>
+						<input type="radio" name="type" value="question" required  id="question" />
+						<label for="question">Question</label>
 					</li>
 					<li>
-						<input type="radio" name="requesttype" value="comment" id="commenttext" />
-						<label for="commentitem">Comment</label>
+						<input type="radio" name="type" value="comment" required id="comment" />
+						<label for="comment">Comment</label>
 					</li>
 				</ol>
 			</li>
 			<li>
-				<label for="mycomments">Comment</label>
-				<textarea name="mycomments" id="mycomments"></textarea>
+				<label for="message">Message *</label>
+				<textarea name="message" id="message" value="<?php if (isset($_POST['message']))echo $_POST['message']; ?>"></textarea>
 			</li>
 		</ol>
 		<button type="submit">send</button>
 </fieldset>
 </form>
-<footer>
-<div class="top"><a href="#">To the Top!</a></div>
-<img src="images/musicCropBlack.png" class="music" alt="musical notes">
-</footer>
-
-</div><!--end of row 2: form-->
-</div> <!-- end container -->
-<!-- javascript -->
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="bootstrap.min.js"></script>
-    <script>
-		$('a.btn-info').tooltip()
-	</script>
-</body>
-</html>
+<?php include("footer.php"); ?>

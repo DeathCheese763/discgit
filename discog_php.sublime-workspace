@@ -1,0 +1,1520 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"_SERVER"
+			],
+			[
+				"L",
+				"List"
+			],
+			[
+				"A",
+				"Album"
+			],
+			[
+				"add",
+				"addalbums"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"sou",
+				"sourcesNP.php"
+			],
+			[
+				"mem",
+				"membership"
+			],
+			[
+				"php",
+				"php?id"
+			],
+			[
+				"regis",
+				"registration_date"
+			],
+			[
+				"current",
+				"current_page"
+			],
+			[
+				"curr",
+				"current_page"
+			],
+			[
+				"MY",
+				"MYSQLI_NUM"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"page",
+				"pagerows"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_array"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"r",
+				"register-page.php"
+			],
+			[
+				"register",
+				"register-password.php"
+			],
+			[
+				"DB",
+				"DB_NAME"
+			],
+			[
+				"in",
+				"inconvenience"
+			],
+			[
+				"if",
+				"if?	$… = ( … ) ? … : …"
+			],
+			[
+				"mysqli",
+				"mysqli_fetch"
+			],
+			[
+				"R",
+				"Register"
+			],
+			[
+				"reg",
+				"registration_date"
+			],
+			[
+				"my",
+				"mysql_close"
+			],
+			[
+				"mysql_se",
+				"mysql_set_charset"
+			],
+			[
+				"Db",
+				"DB_PASSWORD"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"c",
+				"c	color: #${1:000};"
+			],
+			[
+				"bgrr",
+				"background-repeat"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"p",
+				"portfolio/"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"small",
+				"small-caps"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"me",
+				"medium"
+			],
+			[
+				"cl",
+				"clearfix"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"top",
+				"top_link"
+			],
+			[
+				"bdr",
+				"bdr	border-right"
+			],
+			[
+				"pos",
+				"pos-r	position: relative;"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bg",
+				"bgsz	background-size"
+			],
+			[
+				"v",
+				"visibility"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"td",
+				"td-u	text-decoration: underline;"
+			],
+			[
+				"ls",
+				"list-style-type"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bdrs",
+				"bdrs	border-radius"
+			],
+			[
+				"m",
+				"m-a	margin: auto;"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"d",
+				"d	display: ${1:block};"
+			],
+			[
+				"of",
+				"overflow"
+			],
+			[
+				"bl",
+				"blockquote"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"cl-r",
+				"cl-r	clear: right;"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"pt",
+				"padding-top"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"br",
+				"background-repeat"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"o",
+				"overline"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"H",
+				"Helvetica"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"nth",
+				"nth-child"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"as",
+				"aside"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"ft",
+				"font-size"
+			],
+			[
+				"e",
+				"eef0d2"
+			],
+			[
+				"s",
+				"font-size"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"na",
+				"navlist"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"di",
+				"display"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "logout.php",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "album_list.php",
+			"settings":
+			{
+				"buffer_size": 2094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 2759,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 1014,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "-- INSERT INTO `album`( `title`, `year`, `info`) VALUES ('','','');\nINSERT INTO `album`( `title`, `year`, `info`) VALUES ('My Private Nation','2003','http://en.wikipedia.org/wiki/Train_%28band%29#2003-2004:_My_Private_Nation: Four singles were released from this album. The first, \"Calling All Angels,\" was a top 20 hit on the Billboard Hot 100, and was a huge success on the Adult Contemporary and Adult Top 40 charts. The album as a whole has been certified platinum by the RIAA.');\nINSERT INTO `album`( `title`, `year`, `info`) VALUES ('For Me, It\\'s You','2006','http://en.wikipedia.org/wiki/For_Me,_It%27s_You \\'For Me, It\\'s You\\' is Train\\'s fourth studio album. The album\\'s first single, \"Cab\", was released to radio in November 2005.(1)');\nINSERT INTO `album`( `title`, `year`, `info`) VALUES ('Save Me, San Francisco','2009','On August 11, 2009, Train released their first single in over 3 years, “Hey, Soul Sister”, from their album, \"Save Me San Francisco\". The single has become a major success, becoming their second career top ten hit on the Billboard Hot 100, surging from #23 to #7 in the week of January 30, 2010.(1)');\nINSERT INTO `album`( `title`, `year`, `info`) VALUES ('California 37','2012','California 37 is the sixth studio album from pop rock band Train. The album was released on April 13, 2012 through Columbia Records. It was preceded by the lead single “Drive By” on January 10, 2012.(1)');\n-- INSERT INTO `track`( `title`, `album_id`) VALUES ('','');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Calling All Angels','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('All American Girl','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('When I Look to the Sky','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Save the Day','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('My Private Nation','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Get to Me','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Counting Airplanes','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Following Rita','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Your Every Color','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Lincoln Avenue','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('I\\'m About to Come Alive','1');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('All I Ever Wanted','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Get Out','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Cab','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Give Myself to You','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Am I Reaching You Now','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('If I Can\\'t Change Your Mind','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('All I Hear','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Shelter Me','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Explanation','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Always Remember','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('I\\'m Not Waiting in Line','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Skyscraper','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('For Me, It\\'s You','2');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Save Me, San Francisco','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Hey, Soul Sister','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('I Got You','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Parachute','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('This Ain\\'t Goodbye','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('If It\\'s Love','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('You Already Know','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Words','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Brick By Brick','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Breakfast In Bed','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Marry Me','3');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('This\\'ll Be My Year','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Drive By','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Feels Good at First','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Bruises','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('50 Ways to Say Goodbye','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('You Can Finally Meet My Mom','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Sing Together','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('Mermaid','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('California 37','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('We Were Made for This','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('When the Fog Rolls In','4');\nINSERT INTO `track`( `title`, `album_id`) VALUES ('To Be Loved','4');\n-- INSERT INTO `mesage`( `street`, `state`, 'zip', 'email', 'month', 'day', 'year', 'preference', 'type', 'message') VALUES ('','','','','','','','','','');\nINSERT INTO `message`( `street`, `state`, `zip`, `email`, `month`, `day`, `year`, `preference`, `type`, `message`) VALUES ('','','','samwdoss@outlook.com','Nov.','30','1982-2000','HTML','question','Is this a comment?');",
+			"settings":
+			{
+				"buffer_size": 5340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 5559,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "custom.css",
+			"settings":
+			{
+				"buffer_size": 5704,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "adminheader.php",
+			"settings":
+			{
+				"buffer_size": 2751,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "respond.php",
+			"settings":
+			{
+				"buffer_size": 2872,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 31 files for \"<?php include(\"header.php\"); ?>\"\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\addalbums.php:\n    8  	session_write_close();\n    9  ?>\n   10: <?php include(\"header.php\"); ?>\n   11  <h2 class=\"admin\">Albums</h2>\n   12  <?php require('database_connect.php');\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\adMin_lOgin.php:\n    1: <?php include(\"header.php\"); ?>\n    2  <div class=\"jumbotron\" id=\"adminlogin\">\n    3  	<form action=\"adMin_lOgin.php\" method=\"post\" class=\"form-signin\">\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\albumcreate.php:\n    8  	session_write_close();\n    9  ?>\n   10: <?php include(\"header.php\"); ?>\n   11  <h2 class=\"admin\">Add Album Form</h2>\n   12  <?php\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\latesthit.php:\n    7  	}\n    8  ?>\n    9: <?php include(\"header.php\"); ?>\n   10  <h2 class=\"admin\">Set Latest Hit</h2>\n   11  <?php\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\respond.php:\n    7  	}\n    8  ?>\n    9: <?php include(\"header.php\"); ?>\n   10  <?php require('database_connect.php');\n   11  \n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\trackform.php:\n    8  	session_write_close();\n    9  ?>\n   10: <?php include(\"header.php\"); ?>\n   11  <?php	session_id('album');\n   12  \n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\viewmessages.php:\n    7  	}\n    8  ?>\n    9: <?php include(\"header.php\"); ?>\n   10  <h2 class=\"admin\">Questions and Comments form the site's User's</h2>\n   11  <?php require('database_connect.php');\n\n7 matches across 7 files\n\n\nSearching 31 files for \"<?php include(\"header.php\"); ?>\"\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\addalbums.php:\n    8  	session_write_close();\n    9  ?>\n   10: <?php include(\"header.php\"); ?>\n   11  <h2 class=\"admin\">Albums</h2>\n   12  <?php require('database_connect.php');\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\adMin_lOgin.php:\n    1: <?php include(\"header.php\"); ?>\n    2  <div class=\"jumbotron\" id=\"adminlogin\">\n    3  	<form action=\"adMin_lOgin.php\" method=\"post\" class=\"form-signin\">\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\adminpage.php:\n    7  	}\n    8  ?>\n    9: <?php include(\"header.php\"); ?>\n   10  <?php echo\"<h2 class='admin'>Welcome {$_SESSION['fname']} you have the following administrative privileges:</h2><ul class='admin'><li>View and respond to Messages</li><li>Add and remove albums</li><li>Set Latest Hit</li></ul>\";?>\n   11  <?php include('footer.php'); ?>\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\albumcreate.php:\n    8  	session_write_close();\n    9  ?>\n   10: <?php include(\"header.php\"); ?>\n   11  <h2 class=\"admin\">Add Album Form</h2>\n   12  <?php\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\latesthit.php:\n    7  	}\n    8  ?>\n    9: <?php include(\"header.php\"); ?>\n   10  <h2 class=\"admin\">Set Latest Hit</h2>\n   11  <?php\n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\respond.php:\n    7  	}\n    8  ?>\n    9: <?php include(\"header.php\"); ?>\n   10  <?php require('database_connect.php');\n   11  \n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\trackform.php:\n    8  	session_write_close();\n    9  ?>\n   10: <?php include(\"header.php\"); ?>\n   11  <?php	session_id('album');\n   12  \n\nC:\\Users\\PanTB\\Dropbox\\mysite\\train\\viewmessages.php:\n    7  	}\n    8  ?>\n    9: <?php include(\"header.php\"); ?>\n   10  <h2 class=\"admin\">Questions and Comments form the site's User's</h2>\n   11  <?php require('database_connect.php');\n\n8 matches across 8 files\n",
+			"settings":
+			{
+				"buffer_size": 3281,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "database_connect.php",
+			"settings":
+			{
+				"buffer_size": 291,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "addalbums.php",
+			"settings":
+			{
+				"buffer_size": 1470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "adMin_lOgin.php",
+			"settings":
+			{
+				"buffer_size": 1945,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "adminpage.php",
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "albumcreate.php",
+			"settings":
+			{
+				"buffer_size": 2464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "latesthit.php",
+			"settings":
+			{
+				"buffer_size": 2286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trackform.php",
+			"settings":
+			{
+				"buffer_size": 1588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "viewmessages.php",
+			"settings":
+			{
+				"buffer_size": 1315,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 307.0,
+		"selected_items":
+		[
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 526.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/PanTB/Dropbox/mysite/train/album_list.php",
+		"/C/Users/PanTB/Dropbox/mysite/train/albumlist.php",
+		"/C/Users/PanTB/Dropbox/mysite/train/index.php",
+		"/C/Users/PanTB/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/PanTB/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/untitled.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/sourcesNP.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/form.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/javascript.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/meta.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/formnormalize.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/bootstrap.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/bootstrap.min.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/discog_php/respond.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/admintable/view_users-page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mysqli_connect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/admintable/register-page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/admin-page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/logout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/header-admin.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/members-page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/includes.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/login-header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/login_page.inc.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/msqli_connect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/register-page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/header-thanks.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/register-page-apos.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/register-thanks.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/info-col.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/header-members.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/register-password.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/password-header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/register-header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/login/msqli_connect.php",
+		"/Users/sdoss/Desktop/php_novice/ch3_login/includes.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/register-thanks.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/includes.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/register-view-users.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/array.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/register-password-apos.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/page-2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/page-3.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/page-4.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/page-5.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/mysqli_connect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/info-col.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/simpleIdb/template.php",
+		"/Users/sdoss/Desktop/php_novice/ch2_simpleIdb/images/Thumbs.db",
+		"/Users/sdoss/Dropbox/mysite/htmlnovice/portfolio/mysql.html",
+		"/Users/sdoss/Dropbox/mysite/htmlnovice/index.html",
+		"/Users/sdoss/Dropbox/mysite/htmlnovice/port.html",
+		"/Users/sdoss/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/sdoss/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/sdoss/Desktop/repos/github-webdesign/index.html",
+		"/Users/sdoss/Desktop/Ex_Files_Github_Web_Design/exercise_files/Chapter_05/05_05/glossary_content.htm",
+		"/Users/sdoss/Desktop/repos/github-webdesign/glossary.html",
+		"/Users/sdoss/Desktop/repos/github-webdesign/README.md",
+		"/Users/sdoss/Desktop/Ex_Files_Github_Web_Design/exercise_files/Chapter_04/04_08/nojekyll",
+		"/Users/sdoss/Desktop/Ex_Files_Github_Web_Design/exercise_files/Chapter_04/04_08/.nojekyll",
+		"/Users/sdoss/Desktop/repos/git-basics/index.html",
+		"/Users/sdoss/Desktop/repos/git-basics/index.min.html",
+		"/Users/sdoss/Desktop/repos/git-basics/_css/main.css",
+		"/Users/sdoss/Desktop/Ex_Files_Github_Web_Design/exercise_files/Chapter_02/02_14/index.html",
+		"/Users/sdoss/Desktop/Ex_Files_Github_Web_Design/exercise_files/Chapter_02/02_14/_assets/fonts.txt",
+		"/Users/sdoss/Desktop/repos/git-basics/readme.txt",
+		"/Users/sdoss/Desktop/git/explore_california/explorers.html",
+		"/Users/sdoss/Desktop/git/explore_california/mission.html",
+		"/Users/sdoss/Desktop/git/explore_california/tours.html",
+		"/Users/sdoss/.bashrc",
+		"/Users/sdoss/.bash_profile",
+		"/Users/sdoss/Desktop/git/explore_california/contact.html",
+		"/Users/sdoss/Desktop/git/explore_california/index.html",
+		"/Users/sdoss/Applications/.localized",
+		"/Users/sdoss/.git-prompt.sh",
+		"/Users/sdoss/.git-completion.bash",
+		"/Users/admin/.bash_history",
+		"/Users/sdoss/.lesshst",
+		"/Users/sdoss/.bash_history",
+		"/Users/sdoss/Desktop/git/explore_california/pdf/.gitkeep",
+		"/Users/sdoss/Desktop/git/explore_california/commit 65e9515fb1218ef1b6b871b367e1a3e1a",
+		"/Users/sdoss/Desktop/git/explore_california/commit 65e9663a3515fb127d18ef1b6b871b367e1a3e1a",
+		"/Users/sdoss/Desktop/git/explore_california/resources.html",
+		"/Users/sdoss/Desktop/git/explore_california/tours/tour_detail_bigsur.html",
+		"/Users/sdoss/Desktop/git/explore_california/tours/tour_detail_backpack.html",
+		"/Users/sdoss/Desktop/git/explore_california/resources/faq.html",
+		"/Users/sdoss/Desktop/git/explore_california/support.html",
+		"/Users/sdoss/Desktop/git/git_folder/second.txt",
+		"/Users/sdoss/Desktop/file.txt",
+		"/Users/sdoss/Desktop/Bootstrap/css/bootstrap.css",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 5/05_02/additionalCSS.txt",
+		"/Users/sdoss/Desktop/Bootstrap/css/custom.css",
+		"/Users/sdoss/Desktop/Bootstrap/05_03.html",
+		"/Users/sdoss/Dropbox/bootstrap/Bootstrap/index.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 5/05_03/Final/05_03.html",
+		"/Users/sdoss/Desktop/Bootstrap/05_02.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 5/05_03/05_03.html",
+		"/Users/sdoss/Desktop/Bootstrap/04_05.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 5/05_02/05_02.html",
+		"/Users/sdoss/Desktop/Bootstrap/04_04.html",
+		"/Users/sdoss/Desktop/Bootstrap/04_03.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 4/04_04/04_04.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 4/04_03/04_03.html",
+		"/Users/sdoss/Desktop/Bootstrap/04_02.html",
+		"/Users/sdoss/Desktop/Bootstrap/04_01.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 4/04_02/04_02.html",
+		"/Users/sdoss/Desktop/Bootstrap/css/bootstrap-theme.min.css",
+		"/Users/sdoss/Desktop/Bootstrap/03_09.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 3/03_10/03_10.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 4/04_01/04_01.html",
+		"/Users/sdoss/Desktop/Bootstrap/03_05.html",
+		"/Users/sdoss/Desktop/Bootstrap/css/bootstrap.css.map",
+		"/Users/sdoss/Desktop/Bootstrap/03_06.html",
+		"/Users/sdoss/Desktop/Bootstrap/03_07.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 3/03_07/03_07.html",
+		"/Users/sdoss/Desktop/Bootstrap/03_04.html",
+		"/Users/sdoss/Dropbox/bootstrap/Chapter 3/03_05/03_05.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<group 2>",
+			"",
+			"/Users/sdoss/Desktop/git/explore_california",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<?php include(\"header.php\"); ?>",
+			"__",
+			"result",
+			"row",
+			"track",
+			"join",
+			"result",
+			"legend",
+			"php",
+			"html",
+			"002",
+			"0",
+			"001",
+			"4",
+			"regdate",
+			"header-admin",
+			"header",
+			"header-admin",
+			"2",
+			"1",
+			"class",
+			"002",
+			"001",
+			"004",
+			"003",
+			"002",
+			"001",
+			"imput",
+			"05",
+			"04",
+			"03",
+			"02",
+			"01",
+			"rang",
+			"<  ",
+			">,<,>=,<=,<></",
+			"tourDetail",
+			"tourDetail_calm",
+			"_backpack.html",
+			"4315",
+			"a",
+			"justify",
+			"img",
+			"p",
+			"div",
+			"h1",
+			"float",
+			"placeholder",
+			"class",
+			"imput",
+			"255",
+			"five",
+			"img",
+			"third",
+			"ul",
+			"`",
+			"h2",
+			"LESS",
+			"100",
+			"type",
+			"requried",
+			"imput",
+			"header",
+			"6em",
+			"div",
+			"em",
+			"div",
+			"p",
+			"horbar",
+			"aside",
+			"section",
+			"h2",
+			"span",
+			"h2",
+			"\n",
+			"logo",
+			"-",
+			"`\n`\n\n",
+			"`\n\n",
+			"things",
+			"galleries",
+			"bold",
+			"Universalight",
+			"display",
+			"45em",
+			" `",
+			"div",
+			"px",
+			"continue",
+			"\n</",
+			"odd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<?php include(\"adminheader.php\"); ?>",
+			"html",
+			"php",
+			"_backpack_cal.html",
+			"4314",
+			"**"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "logout.php",
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "album_list.php",
+					"settings":
+					{
+						"buffer_size": 2094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 2759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 1014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 5340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4661,
+								4661
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 5559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								5559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "custom.css",
+					"settings":
+					{
+						"buffer_size": 5704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5682,
+								5682
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5994.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "adminheader.php",
+					"settings":
+					{
+						"buffer_size": 2751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1156,
+								1239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "respond.php",
+					"settings":
+					{
+						"buffer_size": 2872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 3281,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										157,
+										188
+									],
+									[
+										333,
+										364
+									],
+									[
+										588,
+										619
+									],
+									[
+										757,
+										788
+									],
+									[
+										924,
+										955
+									],
+									[
+										1110,
+										1141
+									],
+									[
+										1266,
+										1297
+									],
+									[
+										1605,
+										1636
+									],
+									[
+										1781,
+										1812
+									],
+									[
+										2013,
+										2044
+									],
+									[
+										2423,
+										2454
+									],
+									[
+										2592,
+										2623
+									],
+									[
+										2759,
+										2790
+									],
+									[
+										2945,
+										2976
+									],
+									[
+										3101,
+										3132
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1448,
+								1448
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "database_connect.php",
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "addalbums.php",
+					"settings":
+					{
+						"buffer_size": 1470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "adMin_lOgin.php",
+					"settings":
+					{
+						"buffer_size": 1945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "adminpage.php",
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "albumcreate.php",
+					"settings":
+					{
+						"buffer_size": 2464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "latesthit.php",
+					"settings":
+					{
+						"buffer_size": 2286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "trackform.php",
+					"settings":
+					{
+						"buffer_size": 1588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "viewmessages.php",
+					"settings":
+					{
+						"buffer_size": 1315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.677065767285,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 641.0
+	},
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"nor",
+				"normalize.css"
+			],
+			[
+				"css",
+				"main.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/sdoss/Dropbox/Tut'sCafe.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 413.0,
+	"status_bar_visible": true
+}

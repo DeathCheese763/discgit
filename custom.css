@@ -293,3 +293,71 @@ footer a:visited {
   } 
 
 }
+
+/*---------------------------------------------------------*/
+/*PHP errors and else*/
+h3.feedback,div.error{
+  text-align: center;
+}
+#adminlogin{
+  width:600px;
+  margin:0 auto;
+  padding:25px;
+}
+#adminlogin h2{
+  margin-top: 0;
+}
+#adminlogin input:first-of-type{
+  margin-bottom: 5px;
+}
+#adminlogin button{
+  margin-top: 15px;
+}
+h2.admin{
+  text-align: center;
+}
+ul.admin{
+  margin-left: 25%;
+  font-size: 1.5em;
+}
+div.admin{
+  margin:auto 1%;
+  width:98%;
+}
+div.message{
+  margin:auto 10%;
+  width:80%;
+  padding:15px;
+  text-align: justify;
+  text-indent: 25px;
+}
+textarea.admin{
+  width: 80%;
+  margin:auto 10%;
+}
+div.addinfo{
+  margin:0 35%;
+}
+input.admin{
+  width: 80%;
+  margin:10px 10%;
+}
+form.admin{
+  width:70%;
+  margin: 0 15%;
+}
+form.admin>div>input,form.admin>div>textarea{
+  width: 100%;
+}
+li.admin{
+  float: right;
+}
+ul.lingth{
+  width: 100%;
+}
+p{
+  width: auto;
+}
+.row{
+  margin: 0;
+}
